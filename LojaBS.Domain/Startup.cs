@@ -9,6 +9,8 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.EntityFrameworkCore;
+using LojaBS.Domain.Models;
 
 namespace LojaBS.Domain {
     public class Startup {
@@ -28,6 +30,10 @@ namespace LojaBS.Domain {
 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
+    services.AddDbContext<LojaBSContext>(options =>
+            options.UseMySql(Configuration.GetConnectionString("LojaBSContext"), builder =>
+            builder.MigrationsAssembly("LojaBS.Domain")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
