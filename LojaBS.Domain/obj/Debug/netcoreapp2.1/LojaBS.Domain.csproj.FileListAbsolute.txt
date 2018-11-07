@@ -1,4 +1,3 @@
-D:\workspace\Diversos\LojaBS\LojaBS.Domain\obj\Debug\netcoreapp2.1\LojaBS.Domain.csprojAssemblyReference.cache
 D:\workspace\Diversos\LojaBS\LojaBS.Domain\obj\Debug\netcoreapp2.1\LojaBS.Domain.csproj.CoreCompileInputs.cache
 D:\workspace\Diversos\LojaBS\LojaBS.Domain\obj\Debug\netcoreapp2.1\LojaBS.Domain.RazorAssemblyInfo.cache
 D:\workspace\Diversos\LojaBS\LojaBS.Domain\obj\Debug\netcoreapp2.1\LojaBS.Domain.RazorAssemblyInfo.cs
@@ -35,3 +34,9 @@ D:\workspace\Diversos\LojaBS\LojaBS.Domain\obj\Debug\netcoreapp2.1\Razor\Views\C
 D:\workspace\Diversos\LojaBS\LojaBS.Domain\obj\Debug\netcoreapp2.1\Razor\Views\Clientes\Details.g.cshtml.cs
 D:\workspace\Diversos\LojaBS\LojaBS.Domain\obj\Debug\netcoreapp2.1\Razor\Views\Clientes\Edit.g.cshtml.cs
 D:\workspace\Diversos\LojaBS\LojaBS.Domain\obj\Debug\netcoreapp2.1\Razor\Views\Clientes\Index.g.cshtml.cs
+D:\workspace\Diversos\LojaBS\LojaBS.Domain\obj\Debug\netcoreapp2.1\LojaBS.Domain.csprojAssemblyReference.cache
+D:\workspace\Diversos\LojaBS\LojaBS.Domain\obj\Debug\netcoreapp2.1\Razor\Views\Produtos\Create.g.cshtml.cs
+D:\workspace\Diversos\LojaBS\LojaBS.Domain\obj\Debug\netcoreapp2.1\Razor\Views\Produtos\Delete.g.cshtml.cs
+D:\workspace\Diversos\LojaBS\LojaBS.Domain\obj\Debug\netcoreapp2.1\Razor\Views\Produtos\Details.g.cshtml.cs
+D:\workspace\Diversos\LojaBS\LojaBS.Domain\obj\Debug\netcoreapp2.1\Razor\Views\Produtos\Edit.g.cshtml.cs
+D:\workspace\Diversos\LojaBS\LojaBS.Domain\obj\Debug\netcoreapp2.1\Razor\Views\Produtos\Index.g.cshtml.cs

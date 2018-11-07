@@ -13,6 +13,7 @@ namespace LojaBS.Domain.Models
         {
         }
 
-        public DbSet<LojaBS.Domain.Models.Cliente> Cliente { get; set; }
+        public DbSet<Cliente> Cliente { get; set; }
+        public DbSet<Produto> Produto { get; set; }
     }
 }

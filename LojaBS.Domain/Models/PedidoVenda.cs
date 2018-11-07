@@ -7,20 +7,21 @@ namespace LojaBS.Domain.Models {
     public class PedidoVenda {
         public Guid Id { get; set; }
         public DateTime DtVenda { get; set; }
-        public double VlTotal { get; set; }
         public Cliente Cliente { get; set; }
 
-        List<Cliente> clientes = new List<Cliente>();
+        public ICollection<ItemPedVenda> itens { get; set; } = new List<ItemPedVenda>();
 
         protected PedidoVenda() {
 
         }
 
-        public PedidoVenda(Guid id, DateTime dtVenda, double vlTotal, Cliente cliente) {
-            Id = id;
-            DtVenda = dtVenda;
-            VlTotal = vlTotal;
+        public PedidoVenda( Cliente cliente) {
+            DtVenda = DateTime.Now.Date;
             Cliente = cliente;
+        }
+        
+        public void addVenda(ItemPedVenda itemPedido) {
+            itens.Add(itemPedido);
         }
     }
 }

@@ -5,12 +5,18 @@ using System.Threading.Tasks;
 
 namespace LojaBS.Domain.Models {
     public class ItemPedVenda {
-        public Guid Id { get; set; }
+
+        public ItemPedVenda(int id, int qtd, Produto produto, Cliente cliente) {
+            Id = id;
+            Qtd = qtd;
+            this.produto = produto;
+            Cliente = cliente;
+        }
+
+        public int Id { get; set; }
         public int Qtd { get; set; }
-        public PedidoVenda PedidoVenda { get; set; }
+        public Produto produto { get; set; }
         public Cliente Cliente { get; set; }
 
-        List<PedidoVenda> pedidos = new List<PedidoVenda>();
-        List<Produto> produtos = new List<Produto>();
     }
 }

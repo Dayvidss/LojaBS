@@ -3,14 +3,16 @@ using System;
 using LojaBS.Domain.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace LojaBS.Domain.Migrations
 {
     [DbContext(typeof(LojaBSContext))]
-    partial class LojaBSContextModelSnapshot : ModelSnapshot
+    [Migration("20181106204757_Init")]
+    partial class Init
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

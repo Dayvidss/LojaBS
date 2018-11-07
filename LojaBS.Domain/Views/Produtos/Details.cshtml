@@ -1,0 +1,54 @@
+﻿@model LojaBS.Domain.Models.Produto
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Produto</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Descricao)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Descricao)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.UnidMedida)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.UnidMedida)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ValorVenda)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ValorVenda)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ValorCompra)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ValorCompra)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DtUltCompra)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DtUltCompra)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DtUltVenda)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DtUltVenda)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
